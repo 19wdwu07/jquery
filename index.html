@@ -5,10 +5,10 @@
     <link rel="stylesheet" href="css/style.css">
     <title>SASS</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script
+    <!-- <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script> -->
   </head>
   <body>
     <i id="menu" class="fas fa-bars"></i>
@@ -21,7 +21,7 @@
       <i id="close" class="fas fa-window-close"></i>
         <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Variables</a></li>
+        <li><a id="variables" href="#">Variables</a></li>
         <li><a href="#">Nesting</a></li>
       </ul>
 
@@ -33,8 +33,11 @@
         <p> Sass is completely compatible with all versions of
           CSS. We take this compatibility seriously,
            so that you can seamlessly use any available
-           CSS libraries.</p><button class="btn"> read more ...</button>
-
+           CSS libraries.</p>
+           <button class="btn"> read more ...</button>
+           <p class="morePara"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           </p>
+           <button class="lessBtn"> ... read less</button>
         <h2>  Feature Rich </h2>
           <p>Sass boasts more features and abilities than
           any other CSS extension language out there.
@@ -59,12 +62,13 @@
 
     </div>
 
-    <ul>
+    <ul id="features" class="features">
       <li>CodeKit (Paid) Mac <li>
       <li>Compass.app (Paid, Open Source) Mac Windows Linux <li>
       <li>Ghostlab (Paid) Mac Windows </li>
     </ul>
 
+    <script src="js/jquery-3.4.1.min.js"> </script>
     <script src="js/script.js">
 
     </script>

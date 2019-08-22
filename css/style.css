@@ -42,12 +42,12 @@ nav {
   padding: 20px;
   margin: auto; }
 
-.para11, ul, .para21 {
+.para11, ul.features, .para21 {
   width: 48%;
   float: left;
   line-height: 30px; }
 
-.para11, ul {
+.para11, ul.features {
   margin-right: 50px; }
 
 .clearFix {
@@ -59,7 +59,7 @@ h2 {
   margin: 20px 0px; }
 
 /* inheritance of style from .para11 */
-ul {
+ul.features {
   margin-left: 210px; }
 
 .btn {
